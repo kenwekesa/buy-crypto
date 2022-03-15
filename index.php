@@ -98,8 +98,7 @@
 <!-- Navbar -->
 
 <br/><br/><br/><br/>
-<h1> Hey, this is cripto-mate.</h1>
-<p> We are don't have much now, come next time, you will find much :):)</p>
+
 
 
 
