@@ -18,11 +18,83 @@
   border-radius:0;
 }
 
-.below_header
+.belownav
 {
-  background-color: gradient(blue, red)
+ background-image: url("images/mony.jpg");
+ background-size: 100% 100%;
+ height: auto;
+ background-repeat: no-repeat;
+ 
+ padding-bottom: 40px;
+
 }
 
+#ovesrlay {
+  position: fixed; /* Sit on top of the page content */
+  
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.8); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+}
+
+.cont 
+{
+  z-index: 3;
+}
+
+.btn-signup{
+  width: 23%;
+  margin-right: 5px;
+  color: white;
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+
+.card_section
+{
+  margin-top: -5rem;
+}
+
+.card-image-top{
+   width: 100%;
+    height: 25vw;
+    object-fit: cover;
+}
+
+.text_content h1{
+  font-size: 40px;
+}
+
+.text_content p{
+  font-size: 28px;
+}
+
+@media only screen and (max-width: 900px) {
+  
+}
+
+@media only screen and (max-width: 600px) {
+  
+    .card_section
+{
+  margin-top: -2rem;
+}
+
+.btn-signup{
+
+  margin-right: 2px;
+  color: white;
+  border-radius: 0;
+  margin-bottom: 2rem;
+}
+  
+}
 </style>
 </head>
 <body>
@@ -71,23 +143,32 @@
       </div>
     </nav>
     
+
     <!-- Showcase -->
+    
     <section
-      class="bg-light text-dark p-5 p-lg-4 pt-lg-5 text-center text-sm-start "
+      class="belownav bg-light text-light p-5 p-lg-4 pt-lg-5 text-center text-sm-start "
     >
       <div class="container">
         <div class="d-sm-flex align-items-center justify-content-between">
-          <div>
+          <div class="col-md-7 text_content">
             <h1>Take it  the <span class="text-warning"> Right way here </span></h1>
-            <p class="lead my-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!
+            <p class="lead my-4 cont">
+              <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</b>
             </p>
             <button
-              class="btn btn-primary btn-lg enrol"
+              class="btn-signup btn btn-warning btn-lg enrol mr-3"
               data-bs-toggle="modal"
               data-bs-target="#enroll"
             >
-              Become a member
+              Sign up
+            </button>
+            <button
+              class="btn-signup btn btn-info btn-lg login ml-4"
+              data-bs-toggle="modal"
+              data-bs-target="#enroll"
+            >
+              Login
             </button>
           </div>
           <img
@@ -99,7 +180,46 @@
           />
         </div>
       </div>
+      
     </section>
+
+    <!-- Boxes -->
+    <section class="p-5 pl-2 pr-2 card_section">
+      <div class="container">
+        <div class="row text-center g-4">
+          
+          <div class="col-md-7">
+            <div class="card bg-light text-dark border-0 shadow">
+              <div class="card-head">
+                 <img class="w-100 card-image-top" src="images/personbuy.jpeg" >
+              </div>
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Dummy Header</h3>
+                <p class="card-text">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 p-5 px-1">
+             <h3 class="mt-4 text-danger">Don't just buy, buy it right.</h4>
+              <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+            <div id="overlay"></div>
+
+
+    
 
 
     <!-- Boxes -->
@@ -107,7 +227,7 @@
       <div class="container">
         <div class="row text-center g-4">
           <div class="col-md">
-            <div class="card bg-light text-dark shadow">
+            <div class="card bg-light text-dark border-0 shadow">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-laptop"></i>
@@ -122,7 +242,7 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-light text-dark shadow">
+            <div class="card bg-light border-0 text-dark shadow">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-person-square"></i>
@@ -137,7 +257,7 @@
             </div>
           </div>
           <div class="col-md">
-            <div class="card bg-light text-dark shadow">
+            <div class="card bg-light text-dark border-0 shadow">
               <div class="card-body text-center">
                 <div class="h1 mb-3">
                   <i class="bi bi-people"></i>
