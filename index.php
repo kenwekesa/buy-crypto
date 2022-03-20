@@ -75,6 +75,10 @@
   font-size: 28px;
 }
 
+#navmenu a:hover { 
+    box-shadow: inset 0 -3px 0 0 orange; 
+}
+
 @media only screen and (max-width: 900px) {
   
 }
@@ -93,6 +97,9 @@
   border-radius: 0;
   margin-bottom: 2rem;
 }
+
+
+
   
 }
 </style>
