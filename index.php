@@ -8,100 +8,7 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-  <style> 
-   body::before {
-  display: block;
-  content: '';
-  height: 60px;
-}
-
-.enrol
-{
-  border-radius:0;
-}
-
-.belownav
-{
- background-image: url("Raj/mony.jpg");
- background-size: 100% 100%;
- height: auto;
- background-repeat: no-repeat;
- 
- padding-bottom: 40px;
-
-}
-
-#ovesrlay {
-  position: fixed; /* Sit on top of the page content */
-  
-  width: 100%; /* Full width (cover the whole page) */
-  height: 100%; /* Full height (cover the whole page) */
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0,0,0,0.8); /* Black background with opacity */
-  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-  cursor: pointer; /* Add a pointer on hover */
-}
-
-.cont 
-{
-  z-index: 3;
-}
-
-.btn-signup{
-  width: 23%;
-  margin-right: 5px;
-  color: white;
-  border-radius: 0;
-  margin-bottom: 2rem;
-}
-
-.card_section
-{
-  margin-top: -5rem;
-}
-
-.card-image-top{
-   width: 100%;
-    height: 25vw;
-    object-fit: cover;
-}
-
-.text_content h1{
-  font-size: 40px;
-}
-
-.text_content p{
-  font-size: 28px;
-}
-
-#navmenu a:hover { 
-    box-shadow: inset 0 -3px 0 0 orange; 
-}
-
-@media only screen and (max-width: 900px) {
-  
-}
-
-@media only screen and (max-width: 600px) {
-  
-    .card_section
-{
-  margin-top: -2rem;
-}
-
-.btn-signup{
-
-  margin-right: 2px;
-  color: white;
-  border-radius: 0;
-  margin-bottom: 2rem;
-}
-  
-}
-</style>
+    <link rel="stylesheet" type = "text/css" href="css/main.css" >
 </head>
 <body>
 
@@ -154,12 +61,12 @@
     <section
       class="belownav bg-light text-light p-5 p-lg-4 pt-lg-5 text-center text-sm-start "
     >
-      <div class="container">
+      <div class="container ">
         <div class="d-sm-flex align-items-center justify-content-between">
-          <div class="col-md-7 text_content">
+          <div class="col-md-6 text_content">
             <h1>Take it  the <span class="text-warning"> Right way here </span></h1>
             <p class="lead my-4 cont">
-              <b>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure autem recusandae, veniam, illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</b>
+              <b>Lorem ipsum dolor sit amet con illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</b>
             </p>
             <button
               class="btn-signup btn btn-warning btn-lg enrol mr-3"
@@ -169,7 +76,7 @@
               Sign up
             </button>
             <button
-              class="btn-signup btn btn-info btn-lg login ml-4"
+              class="btn-login btn btn-info btn-lg login ml-4"
               data-bs-toggle="modal"
               data-bs-target="#loginModal"
             >
@@ -177,26 +84,44 @@
             </button>
           </div>
           <img
-            class="img-fluid w-s0 d-none d-sm-block"
+            class="upper_image hide_on_mobile img-fluid w-s0 d-none d-sm-block"
             src="images/cypto.png"
-            width="600"
-            height="550"
+            width="550"
+            height="500"
             alt=""
           />
         </div>
       </div>
       
     </section>
+    
 
     <!-- Boxes -->
     <section class="p-5 pl-2 pr-2 card_section">
       <div class="container">
-        <div class="row text-center g-4">
+        <div class="row text-center g-4 text_first_content">
           
-          <div class="col-md-7">
-            <div class="card bg-light text-dark border-0 shadow">
+          
+          <div class="col-md-11 p-5 px-1">
+             <h3 class="mt-4 text-danger">Don't just buy, buy it right.</h4>
+              <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Iure, quas quidem possimus dolorum esse eligendi?
+                </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="p-5 pl-2 pr-2 card_section">
+      <div class="container ">
+        <div class="row text-center g-4 content_cards1 d-flex justify-content-center">
+          
+          <div class="col-md-5">
+            <div class="card bg-light text-dark border-0 shadow ">
               <div class="card-head">
-                 <img class="w-100 card-image-top" src="Raj/personbuy.jpeg" >
+                 <img class="w-100 card-image-top" src="images/personbuy.jpeg" >
               </div>
               <div class="card-body text-center">
                 <div class="h1 mb-3">
@@ -211,12 +136,23 @@
               </div>
             </div>
           </div>
-          <div class="col-md-3 p-5 px-1">
-             <h3 class="mt-4 text-danger">Don't just buy, buy it right.</h4>
-              <p>
+          <div class="col-md-5">
+            <div class="card bg-light text-dark border-0 shadow">
+              <div class="card-head">
+                 <img class="w-100 card-image-top" src="images/personbuy.jpeg" >
+              </div>
+              <div class="card-body text-center">
+                <div class="h1 mb-3">
+                  <i class="bi bi-people"></i>
+                </div>
+                <h3 class="card-title mb-3">Dummy Header</h3>
+                <p class="card-text">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Iure, quas quidem possimus dolorum esse eligendi?
                 </p>
+                <a href="#" class="btn btn-primary">Read More</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -225,6 +161,16 @@
 
 
     
+<div class="row justify-content-center mt-5 mb-4">
+    <div class="card image_card2 col-md-8 border-0 shadow">
+  <img src="images/crypto.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up ome quick example text to build on the card title and makome quick example text to build on the card title and makome quick example text to build on the card title and makome quick example text to build on the card title and makome quick example text to build on the card title and makthe bulk of the card's content.</p>
+    
+  </div>
+</div>
+</div>
 
 
     <!-- Boxes -->
@@ -352,7 +298,7 @@
 </div><!-- /.modal -->
 
 
-<!-- Modal HTML Markup -->
+<!-- Modal LOGIN -->
 <div id="loginModal" class="modal fade">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -382,6 +328,9 @@
                             <button type="submit" class="btn btn-warning">
                                 Login
                             </button>
+                             <a href="userdashboard.html" class="btn btn-warning">
+                                Login
+                            </a>
                         </div>
                     </div>
                 </form>
@@ -427,10 +376,6 @@
   </div>
 </div>
 
-<div class="text-center">
-  <a href="" class="btn btn-default btn-rounded mb-4" data-toggle="modal" data-target="#modalRegisterForm">Launch
-    Modal Register Form</a>
-</div>
 
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
