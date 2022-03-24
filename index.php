@@ -75,7 +75,7 @@
             >
               Sign up
             </button>
-            <a href="userdhashboard.hmtl"
+            <a href="userdashboard.hmtl"
               class="btn-login btn btn-info btn-lg login ml-4"
               data-bs-toggle="modal"
               data-bs-target="#loginModal"
