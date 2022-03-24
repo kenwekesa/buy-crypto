@@ -75,13 +75,13 @@
             >
               Sign up
             </button>
-            <button
+            <a href="userdhashboard.hmtl"
               class="btn-login btn btn-info btn-lg login ml-4"
               data-bs-toggle="modal"
               data-bs-target="#loginModal"
             >
               Login
-            </button>
+</a>
           </div>
           <img
             class="upper_image hide_on_mobile img-fluid w-s0 d-none d-sm-block"
