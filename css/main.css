@@ -157,7 +157,7 @@ body::before {
 }
 
 .sidebar {
-  background: #0b6bb9;
+  background: #200450;
   width: 15%;
   height: 100%;
   top: 0;
@@ -191,7 +191,7 @@ body::before {
 }
 
 .main-content header h3 {
-  color: #f74c08;
+  color: #e00774;
 }
 
 .sidebar-brand {
@@ -215,7 +215,7 @@ body::before {
 
 .sidebar-menu a.active {
   background: #fff;
-  color: #0b6bb9;
+  color: #200450;
 }
 
 .sidebar-menu span {
@@ -289,7 +289,7 @@ body::before {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background: #d4a37a;
+  background: #e00774;
   color: #fff;
   height: 75px;
 }
@@ -303,14 +303,14 @@ body::before {
 }
 
 .cards-row .card .active, .cards-row2 .card .active {
-  background: #0b6bb9;
+  background: #200450;
 }
 
 .cards-row2 .card {
   background: #fff;
   -webkit-box-shadow: 1px 1px 1px 1px #ccc;
           box-shadow: 1px 1px 1px 1px #ccc;
-  color: #d4a37a;
+  color: #e00774;
   height: 420px;
 }
 /*# sourceMappingURL=main.css.map */
