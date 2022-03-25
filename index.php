@@ -75,7 +75,7 @@
             >
               Sign up
             </button>
-            <a href="userdashboard.hmtl"
+            <a href="userdashboard.html"
               class="btn-login btn btn-info btn-lg login ml-4"
               data-bs-toggle="modal"
               data-bs-target="#loginModal"
@@ -340,7 +340,7 @@
 </div><!-- /.modal -->
 
 
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+<div class="modal fade" id="signupModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
