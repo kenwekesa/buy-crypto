@@ -8,7 +8,7 @@
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
    <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css" >
+    <link rel="stylesheet" type = "text/css" href="css/main.css" >
 </head>
 <body>
 
@@ -68,20 +68,18 @@
             <p class="lead my-4 cont">
               <b>Lorem ipsum dolor sit amet con illo dolor soluta assumenda minima quia velit officia sit exercitationem nam ipsa, repellendus aut facilis quasi voluptas!</b>
             </p>
-            <button
+            <a href="signup.html"
               class="btn-signup btn btn-warning btn-lg enrol mr-3"
-              data-bs-toggle="modal"
-              data-bs-target="#signupModal"
+              
             >
               Sign up
-            </button>
-            <a href="userdashboard.html"
+            </a>
+            <a href="login.html"
               class="btn-login btn btn-info btn-lg login ml-4"
-              data-bs-toggle="modal"
-              data-bs-target="#loginModal"
+              
             >
               Login
-</a>
+            </a>
           </div>
           <img
             class="upper_image hide_on_mobile img-fluid w-s0 d-none d-sm-block"

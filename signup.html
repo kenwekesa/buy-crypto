@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<title>New User Sign Up</title>
+    <link  rel='stylesheet' type='text/css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" href="css/signup.css">
+</head>
+<body>
+<div class="forms">
+	<ul class="tab-group">
+		<li class="tab"><a href="login.html">Log In</a></li>
+		<li class="tab active"><a href="#signup">Sign Up</a></li>
+	</ul>
+	  <form action="#" id="signup">
+	      <h1>Sign Up</h1>
+	      <div class="input-field">
+	        <label for="name">Name</label>
+	        <input type="text" name="name"/>
+	        <label for="username">Username</label>
+	        <input type="text" name="name"/>
+	        <label for="email">Email</label> 
+	        <input type="email" name="email" required="email"/>
+	        <label for="password">Password</label> 
+	        <input type="password" name="password" required/>
+	        <label for="password">Confirm Password</label> 
+	        <input type="password" name="password" required/>
+			<input type="submit" value="Sign up" class="button" />
+			
+	      </div>
+	  </form>
+</div>
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+	  $('.tab a').on('click', function (e) {
+	  e.preventDefault();
+	  
+	  $(this).parent().addClass('active');
+	  $(this).parent().siblings().removeClass('active');
+	  
+	  var href = $(this).attr('href');
+	  $('.forms > form').hide();
+	  $(href).fadeIn(500);
+	});
+});
+</script>
+</body>
+</html>
