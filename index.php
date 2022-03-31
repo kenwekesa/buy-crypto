@@ -6,6 +6,7 @@
    
    
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <link rel="stylesheet" type = "text/css" href="css/main.css" >
 </head>
@@ -38,7 +39,7 @@
               <a href="#" class="nav-link">Market</a>
             </li>
             <li class="nav-item">
-              <a href="#" class="nav-link">News</a>
+              <a href="news.html" class="nav-link">News</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Membership</a>
@@ -160,7 +161,7 @@
     
 <div class="row justify-content-center mt-5 mb-4">
     <div class="card image_card2 col-md-8 border-0 shadow">
-  <img src="images/crypto.jpg" class="card-img-top" alt="...">
+  <img src="images/backmoney.jpg" class="card-img-top" alt="...">
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up ome quick example text to build on the card title and makome quick example text to build on the card title and makome quick example text to build on the card title and makome quick example text to build on the card title and makome quick example text to build on the card title and makthe bulk of the card's content.</p>
